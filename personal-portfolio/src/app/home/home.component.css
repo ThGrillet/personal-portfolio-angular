@@ -1,0 +1,8 @@
+.p-profile {
+    background: url('/assets/img/fitzy.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}

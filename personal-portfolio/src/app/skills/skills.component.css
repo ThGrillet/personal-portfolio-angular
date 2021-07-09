@@ -1,0 +1,162 @@
+.p-skills {
+    background: url('/assets/img/skills.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.skills {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    margin: 20px;
+  }
+.skl{
+     margin-left: 20px;
+     color: yellow;
+ }
+.sklLine{
+    position: relative;
+    bottom: 8px;
+    visibility: hidden;
+    padding-left: 6px;
+    color: greenyellow;
+}
+.ProgWidth {
+    padding: 0px 20px;
+}
+
+.skillDiv {
+    height: 5px;
+    width: 100%;
+    background-color: gray;
+}
+
+.skillBar {
+    display: block;
+    height: 5px;
+    background-color: rgb(26, 204, 19);
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.htmlBar {
+    width: 70%;
+    animation: html 3s 1s 5 forwards;
+}
+
+.cssBar {
+    width: 90%;
+    animation: css 3s 1s 5 forwards;
+}
+
+.jsBar {
+    width: 50%;
+    animation: js 3s 1s 5 forwards;
+}
+  
+.phpBar {
+    width: 80%;
+    animation: php 3s 1s 5 forwards;
+}
+
+.symfoBar {
+    width: 75%;
+    animation: symfony 3s 1s 5 forwards;
+}
+
+.ngBar {
+    width: 60%;
+    animation: angular 3s 1s 5 forwards;
+}
+
+.nodeBar {
+    width: 35%;
+    animation: node 3s 1s 5 forwards;
+}
+
+.sqlBar {
+    width: 50%;
+    animation: sql 3s 1s 5 forwards;
+}
+  
+@keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+}
+@keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+}
+
+@keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+}
+
+@keyframes php {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+}
+
+@keyframes symfony {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+}
+
+@keyframes angular {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+}
+
+@keyframes node {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 35%;
+    }
+}
+
+@keyframes sql {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+}
